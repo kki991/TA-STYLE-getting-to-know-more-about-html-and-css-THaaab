@@ -1,20 +1,52 @@
-<!---
-
-### Create a blog page having 2 articles.
-
-#### TODO 🚀:
-
-1. Create a blog page having 2 articles.
-2. The sample structure of a page has been shown below.
-
----
-
-![alt text](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css/ex3.png)
-
----
-
-- Using a CSS reset is necessary.
-
-- Use appropriate semantic tags and keep the nesting and indentation clean.
-
--->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Blog Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h2>APRIL 11 2021</h2>
+                    <br>
+                    <img src="what-is-html-1-768x576.jpg" alt="uses of html" class="pic" width="700px">
+                    <h2>What is HTML ?</h2>
+                    <br>
+                    <p id="hyper">HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+                        HTML is not a programming language, meaning it doesn’t have the ability to create dynamic functionality. Instead, it makes it possible to organize and format documents, similarly to Microsoft Word.
+                        HTML documents are files that end with a .html or .htm extension. You can view then using any web browser (such as Google Chrome, Safari, or Mozilla Firefox). The browser reads the HTML file and renders its content so that internet users can view it.
+                        Usually, the average website includes several different HTML pages. For instance: home pages, about pages, contact pages would all have separate HTML documents.
+                        Each HTML page consists of a set of tags (also called elements), which you can refer to as the building blocks of web pages. They create a hierarchy that structures the content into sections, paragraphs, headings, and other content blocks.</p>
+                    <a href="#" class="read">READ MORE</a>
+                </article>
+            </section>
+            <br>
+            <hr>
+            <section>
+                <article>
+                    <h2>APRIL 12 2021</h2>
+                    <br>
+                    <img src="cssimg.jpg" alt="cssimage" class="csspic" width="700px">
+                    <h2>CSS: Cascading Style Sheets</h2>
+                    <br>
+                    <p id="casac">
+                        Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of the latest recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official version. From CSS3, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Instead of versioning the CSS specification, W3C now periodically takes a snapshot of the latest stable state of the CSS specification
+                    </p>
+                    <a href="#" class="more">READ MORE</a>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <small>&copy; AltCampus 2019</small>
+        </footer>
+    </body>
+</html>
